@@ -18,4 +18,4 @@ navi@navi-kubuntu:~$ fileserver --port=5000 --path=/home/navi
 Serving files under /home/navi on port 5000
 ```
 
-<img src="Screenshot_20220206_185742.png" alt="Screenshot" style="height: 100px; width:100px;"/>
+![Screenshot](./Screenshot_20220206_185742.png "Screenshot")
