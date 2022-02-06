@@ -14,8 +14,8 @@ Serve you file on http
 ## Example
 
 ```
-navi@navi-kubuntu:~$ fileserver --port=5000 --path=/home/navi
-Serving files under /home/navi on port 5000
+navi@navi-kubuntu:~$ fileserver --port=5000 --path=/home/navi/fileserver
+Serving files under /home/navi/fileserver on port 5000
 ```
 
-![Screenshot](./Screenshot_20220206_185742.png "Screenshot")
+![Screenshot](./Screenshot_20220206_190418.png "Screenshot")
