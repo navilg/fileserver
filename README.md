@@ -2,6 +2,13 @@
 
 Serve your files on http
 
+## How to install
+
+```
+sudo curl -L https://github.com/navilg/fileserver/raw/master/bin/fileserver -o /usr/local/bin/fileserver
+sudo chmod +x /usr/local/bin/fileserver
+```
+
 ## Usage of fileserver
 
   -path string
