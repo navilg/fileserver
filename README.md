@@ -1,11 +1,12 @@
 # fileserver
-Serve you file on http
+
+Serve your files on http
 
 ## Usage of fileserver
 
   -path string
 
-        Path to serve (default "/tmp")
+        Path to serve (default "Current working directory")
 
   -port string
 

@@ -5,14 +5,16 @@ import (
 	"fmt"
 	"log"
 	"net/http"
+	"os"
 )
 
-// func root(w http.ResponseWriter, r *http.Request) {
-// 	fmt.Fprintf(w, "Hello Navratan")
-// }
-
 func main() {
-	path := flag.String("path", "/tmp", "Path to serve")
+	currentDir, err := os.Getwd()
+	if err != nil {
+		fmt.Println(err.Error())
+		return
+	}
+	path := flag.String("path", currentDir, "Path to serve")
 	port := flag.String("port", "3000", "Port to listen on")
 	flag.Parse()
 	fmt.Printf("Serving files under %v on port %v \n", *path, *port)
